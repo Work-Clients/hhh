@@ -7,23 +7,11 @@
     </title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <style>
-        .nav-link {
-            display: block;
-            padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-            font-size: var(--bs-nav-link-font-size);
-            font-weight: var(--bs-nav-link-font-weight);
-            color: var(--bs-nav-link-color);
-            text-decoration: none;
-            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-        }
+    <link rel="stylesheet" href="assets/css/main.css">
 
-        a {
-            color: #ec008c;
-            display: block;
-            text-decoration: none;
-        }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 </head>
 
@@ -41,20 +29,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-3">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
                         <a class="nav-link active" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle current" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Education</a></li>
-                            <li><a class="dropdown-item" href="#"> Nutrition program</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="education.html">Education</a></li>
+                            <li><a class="dropdown-item current" href="nutrition.html"> Nutrition program</a></li>
+                            <li><a class="dropdown-item" href="medical.html">Medical Support</a></li>
+                            <li><a class="dropdown-item" href="supportForOld.html"> Support the old</a></li>
+                            <li><a class="dropdown-item" href="feedind.html">Feeding the poor</a></li>
                         </ul>
                     </li>
                     <li class="nav-item mx-3">
@@ -71,7 +61,7 @@
         </div>
     </nav>
     <center>
-        <h1>nurtion</h1>
+        <h1>Nutrition</h1>
     </center>
 </body>
 
