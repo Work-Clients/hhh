@@ -1,8 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Support for old
-        </title>
-    </head>
+
+<head>
+    <title>
+        Support for old
+    </title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        .nav-link {
+            display: block;
+            padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+            font-size: var(--bs-nav-link-font-size);
+            font-weight: var(--bs-nav-link-font-weight);
+            color: var(--bs-nav-link-color);
+            text-decoration: none;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        }
+
+        a {
+            color: #ec008c;
+            display: block;
+            text-decoration: none;
+        }
+    </style>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav class=" navbar-expand-lg bg-white shadow">
+        <div class="container py-3">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/hhhLogo.svg" alt="kosha" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Education</a></li>
+                            <li><a class="dropdown-item" href="#"> Nutrition program</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" href="mediaCoverage.html">Media Coverage</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" href="volunteer.html">Volunteer</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <center>
+        <h1>support For Old</h1>
+    </center>
+</body>
+
 </html>
